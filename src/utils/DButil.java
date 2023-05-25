@@ -6,7 +6,7 @@ import javax.persistence.Persistence;
 
 public class DButil {
 
-    private static final String PERSISTENCE_UNIT_NAME ="Task";
+    private static final String PERSISTENCE_UNIT_NAME ="tasklist";
     private static EntityManagerFactory emf;
 
     public static EntityManager createEntityManager() {

@@ -37,7 +37,7 @@ public class UpdateServiet extends HttpServlet {
             EntityManager em =DButil.createEntityManager();
 
 
-            Task m = em.find(Task.class, (Integer)(request.getSession().getAttribute("token_id")));
+            Task m = em.find(Task.class, (Integer)(request.getSession().getAttribute("task_id")));
 
 
             String title = request.getParameter("title");

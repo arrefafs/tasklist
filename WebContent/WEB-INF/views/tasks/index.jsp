@@ -20,7 +20,7 @@
                 </ul>
 
 
-                <p><a href="${pageContext.request.contextPath }/new">タスクメッセージ</a></p>
+                <p><a href="${pageContext.request.contextPath }/new">タスク</a></p>
 
                 </c:param>
                 </c:import>
